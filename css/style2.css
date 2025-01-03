@@ -235,7 +235,7 @@ audio {
 
 .arrastar .indicador{
   width:25px;
-  height: 20px;
+  height: 30px;
   background-color: black;
   border-radius: 50%;
   position: absolute;
