@@ -157,8 +157,8 @@ footer {
 }
 
 .arrastar{
-  width: 120px;
-  height: 50px;
+  width: 80px;
+  height: 30px;
   background-color: #4d4d4d;
   border-radius: 24px;
   position: relative;
@@ -166,8 +166,8 @@ footer {
 }
 
 .arrastar .indicador{
-  width:55px;
-  height: 50px;
+  width:30px;
+  height:30px;
   background-color: black;
   border-radius: 50%;
   position: absolute;
@@ -180,7 +180,7 @@ footer {
 }
 
 .arrastar.dark .indicador{
-  left: 65px;
+  left: 53px;
   background-color: #FFFFFF;
 }
 
