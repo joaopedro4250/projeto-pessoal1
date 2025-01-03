@@ -34,7 +34,6 @@
   
   header{
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-   
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -68,13 +67,12 @@
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    padding: 6px ;
+    padding: 10px ;
   }
 
   .nav-links {
     display: flex; 
     gap: 10px; 
-    padding-top: 5px;
     margin-bottom: -5px;
     
 }
