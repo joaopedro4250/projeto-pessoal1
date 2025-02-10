@@ -91,10 +91,8 @@
 
    
 
-
   /* Galeria */
 .gallery {
-
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 colunas com tamanhos iguais */
     gap: 20px; 
@@ -287,4 +285,14 @@ footer {
   width: 100%;
   
 }
+@media (max-width: 900px) {
+  .gallery {
+      grid-template-columns: repeat(2, 1fr); /* Quebra para 2 colunas */
+  }
+}
 
+@media (max-width: 600px) {
+  .gallery {
+      grid-template-columns: repeat(1, 1fr); /* Quebra para 1 coluna */
+  }
+}
